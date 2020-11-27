@@ -1,0 +1,50 @@
+.page-content{
+    height: 90rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .85);
+    margin-left:auto;
+    margin-right: auto;
+    position: relative
+}
+
+table{
+    margin-left: auto;
+    margin-right:auto;
+    width: 90%;
+    height: auto;
+    background-color: rgba(0,0,0,.85);
+    color: white;
+}
+
+td{
+    width: fit-content
+}
+
+table th {
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+.picture{
+    width: fit-content;
+}
+
+.description{
+    font-family: 'Cinzel',sans-serif;
+    font-size: 18px;
+    font-weight: 500 ;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: none;
+    margin: 0px; 
+    vertical-align: middle;
+  }

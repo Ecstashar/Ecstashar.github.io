@@ -1,0 +1,60 @@
+.page-content{
+    height: 50rem;
+    width: 85%;
+    background-color: rgba(0, 0, 0, .85);
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+table{
+    margin-left: auto;
+    margin-right:auto;
+    width: 90%;
+    height: auto;
+    background-color: rgba(0,0,0,.85);
+    color: white;
+   padding-bottom:10px;
+
+}
+
+
+
+
+td{
+    width:35%;
+    height: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+table th {
+    font-size: 25px;
+    height: 10px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+table tr td h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+table tr td p{
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 15px;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 175px;
+}
+

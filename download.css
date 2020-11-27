@@ -1,0 +1,53 @@
+.page-content {
+    height: 70rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .85);
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+  
+}
+
+legend {
+	color: #ce0606;
+	text-decoration: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+}
+
+table{
+	background-color: rgba(0, 0, 0, .7);
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 30px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadbutton{
+	padding-bottom: 40px;
+	padding: 18px 40px;
+    font-size: 16px;
+	color: #f1f1f1;
+    background-color: #ff000d;
+    border: none;
+    font-weight: 700;
+	font-family: 'Cinzel', serif;;
+    outline: none;
+    border-radius: 30px;
+	margin-left: 34%;
+	margin-right: 34%;
+}
+
+
+.downloadbutton:hover{
+	background-color: #ffd000;
+	color:black
+
+}
+
+.plynow{
+	background-color: red;
+	color: black;
+}

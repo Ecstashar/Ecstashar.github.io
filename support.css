@@ -1,0 +1,132 @@
+.page-content {
+    height: 55rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+  
+  legend {
+    color: rgb(190, 30, 30);
+    padding-left: 25px;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom:none;
+    font-size: 25px;
+  }
+  
+  input.txb {
+        padding: 10px 40px;
+      font-size: 16px;
+      color: #ffffff;
+      background: rgba(0, 0, 0,0.8);
+      border: none;
+      font-weight: 700;
+      outline: none;
+      border-radius: 5px;
+      width: 215px;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-family: 'Cinzel', serif;
+      font-size:16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  
+  textarea {
+        padding: 20px 20px;
+        font-size: 16px;
+      color: #ffffff;
+      background: rgba(0, 0, 0,.8);
+      font-family: 'Cinzel', serif;
+      border: none;
+      font-weight: 700;
+      outline: none;
+        border-radius: 5px;
+      width: 550px;
+      margin-left: 15px;
+      margin-right: 15px
+  }
+  
+  select {
+        padding: 10px 40px;
+      font-size: 16px;
+      color: #ffffff;
+      background: rgb(0, 0, 0,0.8);
+      border: none;
+      font-weight: 700;
+      outline: none;
+      border-radius: 5px;
+      min-width: 150px;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-family: 'Cinzel', serif;
+  
+  }
+  
+  #bug{
+    background-color: rgba(0, 0, 0,0.8);
+  }
+  
+  table{
+      width: 100%;
+      height: 70%;
+      background-color: rgba(0,0,0,.7);
+      padding-top:20px;
+      padding-bottom: 40px;
+      font-family:'Cinzel', serif;;
+      margin-right: 20%;
+      margin-left: 15%;
+      }
+  
+  td{
+      width: 45%;
+      height: 30%;
+      padding-left: 10px ;
+      padding-right: 10px;
+      color: white;
+  }
+  
+  .button{
+      padding: 15px 30px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #ff0000; 
+      border: none;
+      font-weight: 700;  
+      outline: none;
+      border-radius: 30px;
+      margin-left: 20px;
+      cursor: pointer;
+      font-family: 'Cinzel', serif;;
+    }
+  
+    .button:hover{
+      background-color: #ffc400;
+      color: black;
+
+    }
+    
+    .empty{
+      background-color: none;
+    }
+  
+    .column {
+        float: left;
+        width: 43%;
+        padding: 20px;
+      }
+
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+  

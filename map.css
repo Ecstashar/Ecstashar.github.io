@@ -1,0 +1,48 @@
+.page-content{
+    height: 100rem;
+    width: 85%;
+    background-color: rgba(0, 0, 0, .85);
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    z-index: -1;
+}
+
+table{
+    margin-left: auto;
+    margin-right:auto;
+    width: 70%;
+    height: 90%;
+    background-color: rgba(0,0,0,.85);
+    color: white;
+    padding-bottom: 20px;
+}
+
+th{
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+td{
+    width:35%;
+    height: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Cinzel', serif;
+
+}
+
+table th {
+    font-size: 25px;
+}
+table tr td h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+table tr td p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

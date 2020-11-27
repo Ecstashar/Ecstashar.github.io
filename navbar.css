@@ -1,0 +1,102 @@
+
+.logo {
+      width: 70px;
+      height: 70px;
+      float: left;
+      border-radius: 50%;
+    }
+ 
+.logotitle {
+      display: block;
+      text-decoration: none;
+      background: -webkit-linear-gradient(rgb(128, 12, 12),rgb(187, 16, 16),rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-size: 45px;
+      font-family: 'Metal Mania', cursive;
+      Letter-spacing: 2px;
+      font-weight: 600;
+      padding-top: 10px;
+      padding-left: 10px;
+      float: left;
+    }
+    
+.navbar {
+        width:100%;
+        background-color: rgba(0,0,0,.88);
+        margin-bottom: auto;
+      }
+      
+      
+.navbar ul{
+        text-align: right;
+        margin: 0; 
+        padding: 0;
+      }
+      
+.navbar ul li{
+        list-style: none;
+        display: inline-block;
+      }
+      
+      .navbar ul li ul{
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0,.6);
+        padding: 10px;
+        border-radius: 4px 4px 4px 4px;
+        z-index: 999;
+      }
+      
+      .navbar ul li a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-family:'Orbitron', sans-serif;
+        Letter-spacing: 2px;
+        font-weight: 600;
+        padding: 25px;
+        transition: all ease 0.5s;
+      }
+      
+      .navbar ul li a.active{
+        background-color: rgba(255, 174, 0, 0.8);
+      }
+      
+      .navbar ul li a:hover{
+        background-color: rgba(255, 255, 255, 0.6);
+      }
+      
+      .navbar ul li:hover ul{
+        display: block;
+      }
+
+      .navbar ul li ul li {
+        border-radius:4px;
+      }
+
+      .navbar ul li ul li a{
+        padding: 8px 14px;
+        color: white;
+      }
+
+      .navbar ul li ul li a:hover{
+        background-color: rgba(255, 174, 0, 0.8);
+        padding: 8px 14px
+      }
+
+      .navbar ul li ul li a:hover{
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 8px 14px
+      }
+
+      
+      
+      
+
+ 
+ 
+
+
+

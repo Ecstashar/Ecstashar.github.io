@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Counter Strike: Global Offensive</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sharvind">
+    <meta name="keywords" content="html,Css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="navbar.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,700&family=Cinzel&family=Gamja+Flower&family=Indie+Flower&family=Metal+Mania&family=Orbitron&family=Yanone+Kaffeesatz:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="support.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="HTML.CSS">
+
+
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <ul>
+          <a href="Home.html"><img class="logo" src="CSGOlogo.png"></a>
+          <a class="logotitle" href="Home.html">Counter Strike: Global Offensive</a>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Guide.html">Guide</a>
+            <ul>
+              <li><a href="Requirements.html">Requirements</a></li>
+              <li><a href="Maps.html">Maps</a></li>
+              <li><a href="Roles.html">Roles</a></li>
+            </ul>
+          </li>
+          <li><a href="Download.html">Download</a></li>
+          <li><a href="Events.html">Events</a>
+          </li>
+          <li><a class="active" href="Support.html">Support</a></li>
+        </ul>
+
+      </div>
+    <div class="page-content">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="column">
+                <table>
+                    <tr>
+                        <td>
+                            <legend>Bug Report</legend>
+                            <br>
+                            <form action="">
+                                <input type="text" class="txb" placeholder="First Name">
+                                <br>
+                                <br>
+                                <input type="email" class="txb" placeholder="Email">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <textarea cols="50" rows="15" placeholder="Let us know...."></textarea><br><br>
+                                <button type="submit" class="button button" onclick="myFunction()">Submit</button>
+                            </form>
+                        </td>
+                </table>
+            </div>
+
+
+            <div class="column">
+                <table>
+                    <tr>
+                        <td>
+                            <legend>Feedback</legend>
+                            <br>
+                            <input type="text" class="txb" placeholder="First Name">
+                            <br>
+                            <br>
+                            <input type="email" class="txb" placeholder="Email">
+                            <br>
+                            <br>
+                            <select id="bug" name="bug">
+                                <option value="">Choose your issue</option>
+                                <option value="">Logging Into Account</option>
+                                <option value="">Completing Payment</option>
+                                <option value="">Enquiry</option>
+                                <option value="">Item Lost</option>
+                                <option value="">Other</option>
+                            </select><br></br>
+                            <textarea cols="50" rows="15" placeholder="Let us know...."></textarea><br><br>
+                            <button type="submit" class="button button" onclick="myFunction()">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="subsription">
+            <p>SUBSCRIBE US FOR LATEST NEWS ! ! !</p>
+            <form action="" class="newsletter-form">
+                <input type="text" class="txtb" placeholder="Enter Your Name">
+                <input type="text" class="txtb" placeholder="Enter Your Email">
+                <input type="submit" class="btn" value="Submit">
+            </form>
+        </div>
+
+        <div class="social-media">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="border"></div>
+        <p class="rights-text">© 2020 Valve All Rights Reserved<br>Designed by Ecstashar</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            window.alert("Your Forms are submitted")
+}
+    </script>
+</body>
+
+</html>

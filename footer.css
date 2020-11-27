@@ -1,0 +1,114 @@
+footer{
+    width: 100%;
+    height: 440px;
+    position: relative;
+    background-color: rgba(0,0,0,0.98);
+    margin-top: -45px;
+}
+
+.border{
+    width: 100px;
+    height: 4px;
+    background: #ff000d;
+  }
+
+.subsription p{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    padding: 18px 40px;
+    font-size: 16px;
+    font-family: 'Cinzel', serif;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #ff000d;
+    border: none;
+    font-weight: 700;
+    font-family:'Cinzel', serif;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    background: #ffc400;
+    color: black;
+    opacity: .8;
+  }
+  
+  @media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+  }
+
+  .social-media{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  
+  .social-media a{
+    color: #ff0000;
+    margin-right: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #ffc400;
+  }
+
+  .rights-text{
+      color:#ff0000;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size:15px;
+      padding-bottom: 20px;
+      padding-top: 30px;
+      font-family: 'Bellota', cursive;
+    }
+
+  .border{
+    width: 100%;
+    height: 2px;
+    background: #d4d4d4;
+  }
+
+
